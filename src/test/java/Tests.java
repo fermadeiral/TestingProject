@@ -16,8 +16,4 @@ public class Tests {
 		assertEquals("5 + 5 must be 10", 10, Main.add(5, 5));
 	}
 	
-	@Test
-	public void test3() {
-		assertEquals("10 / 2 must be 5", 5, Main.divide(10, 2));
-	}
 }
