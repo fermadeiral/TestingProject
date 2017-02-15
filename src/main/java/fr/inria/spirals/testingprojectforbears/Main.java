@@ -3,7 +3,7 @@ package fr.inria.spirals.testingprojectforbears;
 public class Main {
 
 	public static int anything(int a, int b) {
-		if (a < 10) {
+		if (a <= 10) {
 			return a + b;
 		} else {
 			return a - b;
