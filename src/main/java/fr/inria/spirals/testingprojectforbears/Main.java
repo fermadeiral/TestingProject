@@ -6,6 +6,10 @@ public class Main {
 		return a + b;
 	}
 	
+	public static int divide(int a, int b) {
+		return a / b;
+	}
+	
 	public static void main(String[] args) {
 		int a = 1;
 		int b = 3;
