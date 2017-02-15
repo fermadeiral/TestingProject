@@ -8,12 +8,16 @@ public class Tests {
 
 	@Test
 	public void test() {
-		assertEquals("5 + 1 must be 6", 6, Main.add(5, 1));
+		assertEquals(4, Main.anything(3, 1));
 	}
 
 	@Test
 	public void test2() {
-		assertEquals("5 + 5 must be 10", 10, Main.add(5, 5));
+		assertEquals(11, Main.anything(9, 2));
 	}
 	
+	@Test
+	public void test3() {
+		assertEquals(7, Main.anything(11, 4));
+	}
 }

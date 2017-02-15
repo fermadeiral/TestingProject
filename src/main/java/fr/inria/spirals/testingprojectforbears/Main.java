@@ -2,18 +2,18 @@ package fr.inria.spirals.testingprojectforbears;
 
 public class Main {
 
-	public static int add(int a, int b) {
-		return a + b;
-	}
-	
-	public static int divide(int a, int b) {
-		return a / b;
+	public static int anything(int a, int b) {
+		if (a < 10) {
+			return a + b;
+		} else {
+			return a - b;
+		}
 	}
 	
 	public static void main(String[] args) {
 		int a = 1;
 		int b = 3;
-		int sum = add(a, b);
+		int sum = anything(a, b);
 		System.out.println(sum);
 	}
 }
