@@ -16,8 +16,8 @@ public class Main {
 		int sum = anything(a, b);
 		System.out.println(sum);
 		
-		a = 10;
-		b = 2;
+		a = 10
+		b = 2
 		sum = anything(a, b);
 		System.out.println(sum);
 	}
