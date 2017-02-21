@@ -17,7 +17,7 @@ public class Main {
 		System.out.println(sum);
 		
 		a = 10
-		b = 2;
+		b = 2
 		sum = anything(a, b);
 		System.out.println(sum);
 	}
