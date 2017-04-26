@@ -21,4 +21,8 @@ public class Tests {
 		assertEquals(7, Main.anything(11, 4));
 	}
 
+	@Test
+	public void test4() {
+		assertEquals(12, Main.anything(10, 2));
+	}
 }
