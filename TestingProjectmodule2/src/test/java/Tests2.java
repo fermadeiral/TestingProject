@@ -1,8 +1,8 @@
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import fr.inria.spirals.testingprojectforbears.Main;
+
+import static org.junit.Assert.assertEquals;
 
 public class Tests {
 
