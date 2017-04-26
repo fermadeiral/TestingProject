@@ -1,6 +1,6 @@
 package fr.inria.spirals.testingprojectforbears;
 
-public class Main2 {
+public class Main1 {
 
 	public static int anything(int a, int b) {
 		if (a <= 10) {

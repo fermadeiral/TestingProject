@@ -2,9 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TestingProject</groupId>
   <artifactId>TestingProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>TestingProjectmodule1</module>
+        <module>TestingProjectmodule2</module>
+    </modules>
 
-  <properties>
+    <properties>
     <default.encoding>UTF-8</default.encoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
