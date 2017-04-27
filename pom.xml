@@ -7,6 +7,7 @@
     <modules>
         <module>TestingProjectmodule1</module>
         <module>TestingProjectmodule2</module>
+        <module>TestingProjectmodule3</module>
     </modules>
 
     <properties>
