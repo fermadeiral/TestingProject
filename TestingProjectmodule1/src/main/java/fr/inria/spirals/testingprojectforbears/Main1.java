@@ -3,7 +3,6 @@ package fr.inria.spirals.testingprojectforbears;
 public class Main1 {
 
 	public static int anything(int a, int b) {
-        System.out.println("a"); // only to have a change in the java file
 	    if (a <= 10) {
 			return a + b;
 		} else {
