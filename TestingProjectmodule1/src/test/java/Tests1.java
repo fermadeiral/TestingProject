@@ -25,4 +25,9 @@ public class Tests1 {
 	public void test4() {
 		assertEquals(12, Main1.anything(10, 2));
 	}
+
+	@Test
+	public void test5() {
+		assertEquals(12, Main1.anything(10, 2));
+	}
 }
